@@ -98,11 +98,48 @@ section {
 }
 
 .contents {
-    font-size: 12px;
     color: #000;
     border: 1px solid #d1d1d1;
     padding: 30px;
 }
+
+caption {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 0;
+
+}
+
+.size_table {
+    margin-bottom: 30px;
+}
+
+table {
+    font-size: 12px;
+    width: 940px;
+    table-layout: fixed;
+
+}
+
+table, th, td{
+    border: 1px solid #e4e4e4;
+    font-size: 12px;
+    text-align: center;
+    border-collapse: collapse;
+    height: 30px;
+}
+
+thead {
+    background-color: #fbfbfb;
+    color: #555;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
 
 .line_2 {
     border-top: 1px solid #d1d1d1;
